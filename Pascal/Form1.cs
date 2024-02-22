@@ -21,7 +21,7 @@ namespace Pascal
                     button.Width = m;
                     int x = Faktoriális(sor) / (Faktoriális(oszlop) * Faktoriális(sor - oszlop));
                     button.Text = x.ToString();
-
+                    //hozzáadás
                     Controls.Add(button);
                 }
             }
