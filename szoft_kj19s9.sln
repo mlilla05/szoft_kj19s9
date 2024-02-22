@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Szorzotabla", "Szorzotabla\Szorzotabla.csproj", "{149CB7BF-B0BD-45AD-B2C1-5440C667F21D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci", "Fibonacci\Fibonacci.csproj", "{C41450EE-EFBD-4FBE-9219-E113D919E4FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pascal", "Pascal\Pascal.csproj", "{CCBC4D81-5D36-49C8-9D98-E517E2A48140}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{149CB7BF-B0BD-45AD-B2C1-5440C667F21D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{149CB7BF-B0BD-45AD-B2C1-5440C667F21D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{149CB7BF-B0BD-45AD-B2C1-5440C667F21D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{149CB7BF-B0BD-45AD-B2C1-5440C667F21D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C41450EE-EFBD-4FBE-9219-E113D919E4FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C41450EE-EFBD-4FBE-9219-E113D919E4FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C41450EE-EFBD-4FBE-9219-E113D919E4FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C41450EE-EFBD-4FBE-9219-E113D919E4FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCBC4D81-5D36-49C8-9D98-E517E2A48140}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCBC4D81-5D36-49C8-9D98-E517E2A48140}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCBC4D81-5D36-49C8-9D98-E517E2A48140}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCBC4D81-5D36-49C8-9D98-E517E2A48140}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8E81E99-A60E-4BF4-8D0C-C63E63941986}
+	EndGlobalSection
+EndGlobal
