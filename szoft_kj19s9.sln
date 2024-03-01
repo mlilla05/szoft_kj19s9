@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fibonacci", "Fibonacci\Fibo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pascal", "Pascal\Pascal.csproj", "{CCBC4D81-5D36-49C8-9D98-E517E2A48140}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VillogoGomb", "VillogoGomb\VillogoGomb.csproj", "{E078312A-2448-43DE-8AC0-01E4218B3E38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VillogoGomb", "VillogoGomb\VillogoGomb.csproj", "{E078312A-2448-43DE-8AC0-01E4218B3E38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HitelKöltsége", "HitelKöltsége\HitelKöltsége.csproj", "{F1E0AE1F-B16D-4837-8D0F-42275D829A4C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{E078312A-2448-43DE-8AC0-01E4218B3E38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E078312A-2448-43DE-8AC0-01E4218B3E38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E078312A-2448-43DE-8AC0-01E4218B3E38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1E0AE1F-B16D-4837-8D0F-42275D829A4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1E0AE1F-B16D-4837-8D0F-42275D829A4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1E0AE1F-B16D-4837-8D0F-42275D829A4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1E0AE1F-B16D-4837-8D0F-42275D829A4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
