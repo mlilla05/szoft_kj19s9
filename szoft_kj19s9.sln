@@ -13,9 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VillogoGomb", "VillogoGomb\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HitelKöltsége", "HitelKöltsége\HitelKöltsége.csproj", "{F1E0AE1F-B16D-4837-8D0F-42275D829A4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pascal_net_8", "Pascal_net_8\Pascal_net_8.csproj", "{15BB2857-7C88-48E7-9939-189F13A1043B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pascal_net_8", "Pascal_net_8\Pascal_net_8.csproj", "{15BB2857-7C88-48E7-9939-189F13A1043B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sakktabla_net_8", "Sakktabla_net_8\Sakktabla_net_8.csproj", "{74437F27-1CA1-4CC4-93DC-7C2D5190493F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sakktabla_net_8", "Sakktabla_net_8\Sakktabla_net_8.csproj", "{74437F27-1CA1-4CC4-93DC-7C2D5190493F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZH_Villogo_Gomb", "ZH_Villogo_Gomb\ZH_Villogo_Gomb.csproj", "{3904E785-0EB4-48BB-B3BD-75F24168A413}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZH_Szinezo_Gomb", "ZH_Szinezo_Gomb\ZH_Szinezo_Gomb.csproj", "{65890889-5D06-4F98-AB3D-E890C743A1D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{74437F27-1CA1-4CC4-93DC-7C2D5190493F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74437F27-1CA1-4CC4-93DC-7C2D5190493F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74437F27-1CA1-4CC4-93DC-7C2D5190493F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3904E785-0EB4-48BB-B3BD-75F24168A413}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3904E785-0EB4-48BB-B3BD-75F24168A413}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3904E785-0EB4-48BB-B3BD-75F24168A413}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3904E785-0EB4-48BB-B3BD-75F24168A413}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65890889-5D06-4F98-AB3D-E890C743A1D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65890889-5D06-4F98-AB3D-E890C743A1D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65890889-5D06-4F98-AB3D-E890C743A1D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65890889-5D06-4F98-AB3D-E890C743A1D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
