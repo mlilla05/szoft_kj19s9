@@ -11,7 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pascal", "Pascal\Pascal.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VillogoGomb", "VillogoGomb\VillogoGomb.csproj", "{E078312A-2448-43DE-8AC0-01E4218B3E38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HitelKöltsége", "HitelKöltsége\HitelKöltsége.csproj", "{F1E0AE1F-B16D-4837-8D0F-42275D829A4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HitelKöltsége", "HitelKöltsége\HitelKöltsége.csproj", "{F1E0AE1F-B16D-4837-8D0F-42275D829A4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pascal_net_8", "Pascal_net_8\Pascal_net_8.csproj", "{15BB2857-7C88-48E7-9939-189F13A1043B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sakktabla_net_8", "Sakktabla_net_8\Sakktabla_net_8.csproj", "{74437F27-1CA1-4CC4-93DC-7C2D5190493F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{F1E0AE1F-B16D-4837-8D0F-42275D829A4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1E0AE1F-B16D-4837-8D0F-42275D829A4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1E0AE1F-B16D-4837-8D0F-42275D829A4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15BB2857-7C88-48E7-9939-189F13A1043B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15BB2857-7C88-48E7-9939-189F13A1043B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15BB2857-7C88-48E7-9939-189F13A1043B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15BB2857-7C88-48E7-9939-189F13A1043B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74437F27-1CA1-4CC4-93DC-7C2D5190493F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74437F27-1CA1-4CC4-93DC-7C2D5190493F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74437F27-1CA1-4CC4-93DC-7C2D5190493F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74437F27-1CA1-4CC4-93DC-7C2D5190493F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
