@@ -47,7 +47,7 @@ namespace HajósKvíz
             StreamReader sr = new StreamReader("hajozasi_szabalyzat_kerdessor_BOM.txt", true);
             while (!sr.EndOfStream)
             {
-                string sor = sr.ReadLine() ?? "nincs kitöltve";
+                string sor = sr.ReadLine(); //?? "nincs kitöltve";
                 string[] tömb = sor.Split("\t");
                 if (tömb.Length != 7)
                 {
@@ -84,11 +84,11 @@ namespace HajósKvíz
             if (AktuálisKérdések[MegjelenítettKérdésSzáma].HelyesVálasz == 1)
             {
                 textBox1.BackColor = Color.LightGreen;
-                AktuálisKérdések[MegjelenítettKérdésSzáma].HelyesVálasz++;
+                AktuálisKérdések[MegjelenítettKérdésSzáma].HelyesVálaszokSzáma++;
             }
             else
             {
-                AktuálisKérdések[MegjelenítettKérdésSzáma].HelyesVálasz = 0;
+                AktuálisKérdések[MegjelenítettKérdésSzáma].HelyesVálaszokSzáma = 0;
             }
         }
 
@@ -98,11 +98,11 @@ namespace HajósKvíz
             if (AktuálisKérdések[MegjelenítettKérdésSzáma].HelyesVálasz == 2)
             {
                 textBox2.BackColor = Color.LightGreen;
-                AktuálisKérdések[MegjelenítettKérdésSzáma].HelyesVálasz++;
+                AktuálisKérdések[MegjelenítettKérdésSzáma].HelyesVálaszokSzáma++;
             }
             else
             {
-                AktuálisKérdések[MegjelenítettKérdésSzáma].HelyesVálasz = 0;
+                AktuálisKérdések[MegjelenítettKérdésSzáma].HelyesVálaszokSzáma = 0;
             }
         }
 
@@ -112,11 +112,11 @@ namespace HajósKvíz
             if (AktuálisKérdések[MegjelenítettKérdésSzáma].HelyesVálasz == 3)
             {
                 textBox3.BackColor = Color.LightGreen;
-                AktuálisKérdések[MegjelenítettKérdésSzáma].HelyesVálasz++;
+                AktuálisKérdések[MegjelenítettKérdésSzáma].HelyesVálaszokSzáma++;
             }
             else
             {
-                AktuálisKérdések[MegjelenítettKérdésSzáma].HelyesVálasz = 0;
+                AktuálisKérdések[MegjelenítettKérdésSzáma].HelyesVálaszokSzáma = 0;
             }
         }
     }
