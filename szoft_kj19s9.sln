@@ -23,11 +23,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZH_Szinezo_Gomb", "ZH_Szine
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZH_Szamolo_Gomb", "ZH_Szamolo_Gomb\ZH_Szamolo_Gomb.csproj", "{7709E7AC-C164-41C5-89C6-9CAA37E615ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZH_Veletlen_Gombok", "ZH_Veletlen_Gombok\ZH_Veletlen_Gombok.csproj", "{23E4D87D-856A-49D0-8FA2-AB215569A119}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZH_Veletlen_Gombok", "ZH_Veletlen_Gombok\ZH_Veletlen_Gombok.csproj", "{23E4D87D-856A-49D0-8FA2-AB215569A119}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZH_Gombok_Haromszogben", "ZH_Gombok_Haromszogben\ZH_Gombok_Haromszogben.csproj", "{640AEF61-3A6D-4EE9-B42C-A58CCB2612D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZH_Gombok_Haromszogben", "ZH_Gombok_Haromszogben\ZH_Gombok_Haromszogben.csproj", "{640AEF61-3A6D-4EE9-B42C-A58CCB2612D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZH_Karacsonyfa", "ZH_Karacsonyfa\ZH_Karacsonyfa.csproj", "{4966AE49-E046-4D21-916C-7D2BB25026B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZH_Karacsonyfa", "ZH_Karacsonyfa\ZH_Karacsonyfa.csproj", "{4966AE49-E046-4D21-916C-7D2BB25026B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HajósKvíz", "HajósKvíz\HajósKvíz.csproj", "{880CA2D5-36C9-4AFD-8B7D-0A584C107E88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{4966AE49-E046-4D21-916C-7D2BB25026B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4966AE49-E046-4D21-916C-7D2BB25026B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4966AE49-E046-4D21-916C-7D2BB25026B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{880CA2D5-36C9-4AFD-8B7D-0A584C107E88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{880CA2D5-36C9-4AFD-8B7D-0A584C107E88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{880CA2D5-36C9-4AFD-8B7D-0A584C107E88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{880CA2D5-36C9-4AFD-8B7D-0A584C107E88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
