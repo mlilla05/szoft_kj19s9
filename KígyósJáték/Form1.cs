@@ -58,15 +58,6 @@ namespace KígyósJáték
                         return;
                     }
                 }
-                if(item is Alma)
-                {
-                    Alma a = (Alma)item;
-                    if (a.Top == fej_y && a.Left == fej_x)
-                    {
-                        hossz++;
-                        Controls.Remove(a);
-                    }
-                }
             }
             KígyóElem ke = new KígyóElem();
             ke.Top = fej_y;
@@ -86,11 +77,25 @@ namespace KígyósJáték
             if (lépésszám % 5 == 0)
             {
                 Alma alma = new Alma();
-                int alma_x = rnd.Next(0, 500);
-                int alma_y = rnd.Next(0, 500);
+                int alma_x = rnd.Next(0, 25) * 20;
+                int alma_y = rnd.Next(0, 25) * 20;
                 alma.Top = alma_x;
                 alma.Left = alma_y;
                 Controls.Add(alma);
+            }
+            foreach (object item in Controls)
+            {
+                if (item is Alma)
+                {
+                    Alma a = (Alma)item;
+                    if (a.Top == fej_y && a.Left == fej_x)
+                    {
+                        hossz++;
+                        Controls.Remove(a);
+                        Controls.Add(ke);
+                        kígyó.Add(ke);
+                    }
+                }
             }
         }
 
