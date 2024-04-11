@@ -31,7 +31,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZH_Karacsonyfa", "ZH_Karacs
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HajósKvíz", "HajósKvíz\HajósKvíz.csproj", "{880CA2D5-36C9-4AFD-8B7D-0A584C107E88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KígyósJáték", "KígyósJáték\KígyósJáték.csproj", "{2099A12A-E646-47C5-A713-26BD67FA1814}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KígyósJáték", "KígyósJáték\KígyósJáték.csproj", "{2099A12A-E646-47C5-A713-26BD67FA1814}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adatkotes", "Adatkotes\Adatkotes.csproj", "{3EEB2C4F-CF06-4163-A5FA-F552C9455601}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{2099A12A-E646-47C5-A713-26BD67FA1814}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2099A12A-E646-47C5-A713-26BD67FA1814}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2099A12A-E646-47C5-A713-26BD67FA1814}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EEB2C4F-CF06-4163-A5FA-F552C9455601}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EEB2C4F-CF06-4163-A5FA-F552C9455601}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EEB2C4F-CF06-4163-A5FA-F552C9455601}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EEB2C4F-CF06-4163-A5FA-F552C9455601}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
