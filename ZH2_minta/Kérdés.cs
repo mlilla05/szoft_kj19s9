@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ZH2_minta
 {
-    internal class VizsgaKérdés
+    public class VizsgaKérdés
     {
         //Szam,Kerdes,V1,V2,V3,Kep,HelyesValasz
         public int Szam { get; set; }
