@@ -79,8 +79,9 @@ namespace ZH2_minta
             FormAddNew formAddNew = new FormAddNew();
             if (formAddNew.ShowDialog() == DialogResult.OK)
             {
-                formAddNew.ShowDialog();
+                //formAddNew.ShowDialog();
                 //formAddNew.Show(); oldalra lehet kattintani
+                bindingSource1.Add(formAddNew.újvizsgaKérdés);
             }
         }
 

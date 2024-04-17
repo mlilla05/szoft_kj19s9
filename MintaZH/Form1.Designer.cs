@@ -31,17 +31,13 @@
             components = new System.ComponentModel.Container();
             buttonBetöltés = new Button();
             dataGridView1 = new DataGridView();
-            versenyzoIDDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
-            nevDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
-            nemzetisegDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
-            eredmenyPercDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
-            kategoriaDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             futókBindingSource = new BindingSource(components);
             buttonMentés = new Button();
             textBox1 = new TextBox();
             buttonTörlés = new Button();
             buttonÚj = new Button();
             buttonSzámítás = new Button();
+            buttonSzerkesztés = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)futókBindingSource).BeginInit();
             SuspendLayout();
@@ -60,57 +56,12 @@
             // 
             dataGridView1.AutoGenerateColumns = false;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { versenyzoIDDataGridViewTextBoxColumn, nevDataGridViewTextBoxColumn, nemzetisegDataGridViewTextBoxColumn, eredmenyPercDataGridViewTextBoxColumn, kategoriaDataGridViewTextBoxColumn });
             dataGridView1.DataSource = futókBindingSource;
             dataGridView1.Location = new Point(12, 213);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 62;
             dataGridView1.Size = new Size(776, 225);
             dataGridView1.TabIndex = 1;
-            // 
-            // versenyzoIDDataGridViewTextBoxColumn
-            // 
-            versenyzoIDDataGridViewTextBoxColumn.DataPropertyName = "VersenyzoID";
-            versenyzoIDDataGridViewTextBoxColumn.HeaderText = "VersenyzoID";
-            versenyzoIDDataGridViewTextBoxColumn.MinimumWidth = 8;
-            versenyzoIDDataGridViewTextBoxColumn.Name = "versenyzoIDDataGridViewTextBoxColumn";
-            versenyzoIDDataGridViewTextBoxColumn.Width = 150;
-            // 
-            // nevDataGridViewTextBoxColumn
-            // 
-            nevDataGridViewTextBoxColumn.DataPropertyName = "Nev";
-            nevDataGridViewTextBoxColumn.HeaderText = "Nev";
-            nevDataGridViewTextBoxColumn.MinimumWidth = 8;
-            nevDataGridViewTextBoxColumn.Name = "nevDataGridViewTextBoxColumn";
-            nevDataGridViewTextBoxColumn.Width = 150;
-            // 
-            // nemzetisegDataGridViewTextBoxColumn
-            // 
-            nemzetisegDataGridViewTextBoxColumn.DataPropertyName = "Nemzetiseg";
-            nemzetisegDataGridViewTextBoxColumn.HeaderText = "Nemzetiseg";
-            nemzetisegDataGridViewTextBoxColumn.MinimumWidth = 8;
-            nemzetisegDataGridViewTextBoxColumn.Name = "nemzetisegDataGridViewTextBoxColumn";
-            nemzetisegDataGridViewTextBoxColumn.Width = 150;
-            // 
-            // eredmenyPercDataGridViewTextBoxColumn
-            // 
-            eredmenyPercDataGridViewTextBoxColumn.DataPropertyName = "EredmenyPerc";
-            eredmenyPercDataGridViewTextBoxColumn.HeaderText = "EredmenyPerc";
-            eredmenyPercDataGridViewTextBoxColumn.MinimumWidth = 8;
-            eredmenyPercDataGridViewTextBoxColumn.Name = "eredmenyPercDataGridViewTextBoxColumn";
-            eredmenyPercDataGridViewTextBoxColumn.Width = 150;
-            // 
-            // kategoriaDataGridViewTextBoxColumn
-            // 
-            kategoriaDataGridViewTextBoxColumn.DataPropertyName = "Kategoria";
-            kategoriaDataGridViewTextBoxColumn.HeaderText = "Kategoria";
-            kategoriaDataGridViewTextBoxColumn.MinimumWidth = 8;
-            kategoriaDataGridViewTextBoxColumn.Name = "kategoriaDataGridViewTextBoxColumn";
-            kategoriaDataGridViewTextBoxColumn.Width = 150;
-            // 
-            // futókBindingSource
-            // 
-            futókBindingSource.DataSource = typeof(Futók);
             // 
             // buttonMentés
             // 
@@ -160,11 +111,21 @@
             buttonSzámítás.UseVisualStyleBackColor = true;
             buttonSzámítás.Click += buttonSzámítás_Click;
             // 
+            // buttonSzerkesztés
+            // 
+            buttonSzerkesztés.Location = new Point(302, 12);
+            buttonSzerkesztés.Name = "buttonSzerkesztés";
+            buttonSzerkesztés.Size = new Size(112, 34);
+            buttonSzerkesztés.TabIndex = 7;
+            buttonSzerkesztés.Text = "Szerkesztés";
+            buttonSzerkesztés.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(buttonSzerkesztés);
             Controls.Add(buttonSzámítás);
             Controls.Add(buttonÚj);
             Controls.Add(buttonTörlés);
@@ -196,5 +157,6 @@
         private Button buttonTörlés;
         private Button buttonÚj;
         private Button buttonSzámítás;
+        private Button buttonSzerkesztés;
     }
 }

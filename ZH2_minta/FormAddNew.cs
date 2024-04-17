@@ -12,6 +12,7 @@ namespace ZH2_minta
 {
     public partial class FormAddNew : Form
     {
+        public VizsgaKérdés újvizsgaKérdés = new VizsgaKérdés();
         public FormAddNew()
         {
             InitializeComponent();
@@ -19,7 +20,7 @@ namespace ZH2_minta
 
         private void FormAddNew_Load(object sender, EventArgs e)
         {
-            
+            vizsgaKérdésBindingSource.DataSource = újvizsgaKérdés;
         }
     }
 }
