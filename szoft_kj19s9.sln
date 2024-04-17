@@ -37,7 +37,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adatkotes", "Adatkotes\Adat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZH2_minta", "ZH2_minta\ZH2_minta.csproj", "{3FA86780-D4A5-468D-AD21-BB2EB1A63B62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MintaZH", "MintaZH\MintaZH.csproj", "{22768126-1B13-469B-B34F-4E36199B788A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MintaZH", "MintaZH\MintaZH.csproj", "{22768126-1B13-469B-B34F-4E36199B788A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MINTA_ZH2_GYAK", "MINTA_ZH2_GYAK\MINTA_ZH2_GYAK.csproj", "{8A43328E-7E09-4434-9DC7-3EE0C199E01C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{22768126-1B13-469B-B34F-4E36199B788A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22768126-1B13-469B-B34F-4E36199B788A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22768126-1B13-469B-B34F-4E36199B788A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A43328E-7E09-4434-9DC7-3EE0C199E01C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A43328E-7E09-4434-9DC7-3EE0C199E01C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A43328E-7E09-4434-9DC7-3EE0C199E01C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A43328E-7E09-4434-9DC7-3EE0C199E01C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
