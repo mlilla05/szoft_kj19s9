@@ -35,7 +35,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KígyósJáték", "Kígyós
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adatkotes", "Adatkotes\Adatkotes.csproj", "{3EEB2C4F-CF06-4163-A5FA-F552C9455601}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZH2_minta", "ZH2_minta\ZH2_minta.csproj", "{3FA86780-D4A5-468D-AD21-BB2EB1A63B62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZH2_minta", "ZH2_minta\ZH2_minta.csproj", "{3FA86780-D4A5-468D-AD21-BB2EB1A63B62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MintaZH", "MintaZH\MintaZH.csproj", "{22768126-1B13-469B-B34F-4E36199B788A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{3FA86780-D4A5-468D-AD21-BB2EB1A63B62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FA86780-D4A5-468D-AD21-BB2EB1A63B62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FA86780-D4A5-468D-AD21-BB2EB1A63B62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22768126-1B13-469B-B34F-4E36199B788A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22768126-1B13-469B-B34F-4E36199B788A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22768126-1B13-469B-B34F-4E36199B788A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22768126-1B13-469B-B34F-4E36199B788A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
